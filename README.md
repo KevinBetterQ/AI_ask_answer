@@ -1,0 +1,4 @@
+ - generate_chat.py - 清洗数据、提取 ask 数据和 answer 数据、提取词典、为每个字生成唯一的数字 ID、ask 和 answer 用数字 ID 表示；
+ - seq2seq.py、seq2seq_model.py - TensorFlow 中 Translate Demo，由于出现 deepcopy 错误，这里对 SeqSeq 稍微改动了；
+ - train_chat.py - 训练 SeqSeq 模型；
+ - predict_chat.py - 进行聊天。
